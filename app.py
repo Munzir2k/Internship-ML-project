@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request
-import jsonify
-import requests
+# import jsonify
+# import requests
 import pickle
 import numpy as np
-import xgboost
-import matplotlib
+# import xgboost
+# import matplotlib
 from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
