@@ -6,3 +6,5 @@ pandas_profiling
 pandas
 numpy
 matplotlib
+
+-e .
