@@ -12,23 +12,20 @@
 <body>
 
 
-    <!-- Navbar Starts -->
+    <!-- Navbar stars -->
     <section id="nav-bar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand font-weight-bold" href="#" style="color: white;">BANK</a>
+    <a class="navbar-brand font-weight-bold" href="#" style="color: white;">ABC BANK</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">Prediction <span class="sr-only">(current)</span></a>
              </li>
              <li class="nav-item">
-                <a class="nav-link" href="#">Net Banking</a>
-             </li>
-             <li class="nav-item">
-                <a class="nav-link" href="#">Predictions</a>
+                <a class="nav-link" href="#">Create Account</a>
              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
@@ -51,37 +48,37 @@
         
     	<div class="leftcontact">
 			      <div class="form-group">
-			        <p>Credit Score<span>*</span></p>
+			        <p>Credit Score<span class="important">*</span></p>
 				        <input name="credit_score"  type="number" >
                 <div class="validation"></div>
        </div> 
 
             <div class="form-group">
-            <p>Age <span>*</span></p>
+            <p>Age <span class="important">*</span></p>
 				<input name="age" required="required">
                 <div class="validation"></div>
 			</div>
 
 			<div class="form-group">
-			<p>Tenure <span>*</span></p>	
+			<p>Tenure <span class="important">*</span></p>	
                 <input name="tenure" required="required">
                 <div class="validation"></div>
 			</div>	
 
 			<div class="form-group">
-			<p>Enter the Account Balance:  <span>*</span></p>
+			<p>Bank Balance:  <span class="important">*</span></p>
 				<input name="balance" required="required">
                 <div class="validation"></div>
 			</div>
 
 			<div class="form-group">
-			<p>Number of Products <span>*</span></p>
+			<p>Number of Products <span class="important">*</span></p>
 				<input name="products_number" required="required">
                 <div class="validation"></div>
 			</div>
 
 			<div class="form-group">
-			<p>Do the Customer have Credit Card? (1=Yes, 0=No) <span>*</span></p>
+			<p>Do the Customer have Credit Card? (1=Yes, 0=No) <span class="important">*</span></p>
 				<input name="credit_card" required="required">
                 <div class="validation"></div>
 			</div>	
@@ -93,19 +90,19 @@
 	<div class="rightcontact">	
 
 			<div class="form-group">
-			<p>Is the Customer Active Member (1=Yes, 0=No)<span>*</span></p>
+			<p>Is the Customer an Active Member (1=Yes, 0=No)<span class="important">*</span></p>
 				<input name="active_member" required="required">
                 <div class="validation"></div>
 			</div>	
 
 			<div class="form-group">
-			<p>Enter the Estimated Salary: <span>*</span></p>	
+			<p>Enter the Estimated Salary: <span class="important">*</span></p>	
 				<input name="estimated_salary" required="required">
                 <div class="validation"></div>
 			</div>
 
 			<div class="form-group">
-			<p>Enter The Location: <span>*</span></p>
+			<p>Enter The Country: <span class="important">*</span></p>
                 <select name="country_Germany" required="required">
                 <option value="Germany">Germany</option>
                 <option value="Spain">Spain</option>
@@ -115,7 +112,7 @@
 			</div>
 
 			<div class="form-group">
-			<p>Gender of Customer:  <span>*</span></p>	
+			<p>Gender of Customer:  <span class="important">*</span></p>	
                 <select name="gender_Male" id="resea" required="required">
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
@@ -170,7 +167,7 @@ body {
     font-family: sans-serif;
     background-image: url(https://images.pexels.com/photos/14866072/pexels-photo-14866072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) !important;
     background-repeat: no-repeat !important;
-    background-size: 100% 100%!important;
+    background-size: 100% 100% !important;
 }
 #nav-bar {
     position: sticky;
@@ -237,7 +234,7 @@ form {
   overflow: hidden;
 }
 
-p span {
+.important {
   color: #F00;
 }
 
